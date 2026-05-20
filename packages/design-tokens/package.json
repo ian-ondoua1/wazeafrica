@@ -1,0 +1,17 @@
+{
+  "name": "@weza/design-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./tailwind-preset": "./tailwind-preset.ts"
+  },
+  "devDependencies": {
+    "@weza/tsconfig": "workspace:*",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3"
+  }
+}

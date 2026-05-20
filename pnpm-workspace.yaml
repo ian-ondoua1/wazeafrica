@@ -1,0 +1,9 @@
+packages:
+  - "apps/*"
+  - "packages/*"
+
+node-linker: hoisted
+auto-install-peers: true
+strict-peer-dependencies: false
+fetch-timeout: 600000
+fetch-retries: 5

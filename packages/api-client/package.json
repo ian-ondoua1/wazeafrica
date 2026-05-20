@@ -1,0 +1,19 @@
+{
+  "name": "@weza/api-client",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./caisse": "./caisse.ts",
+    "./mock": "./mock/index.ts"
+  },
+  "dependencies": {
+    "@weza/types": "workspace:*"
+  },
+  "devDependencies": {
+    "@weza/tsconfig": "workspace:*",
+    "typescript": "^5.6.3"
+  }
+}

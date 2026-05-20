@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+dist
+.turbo
+.env*.local
+.DS_Store
+*.log
+*.tsbuildinfo
+.idea
+.vscode
+.claude
+*.local
